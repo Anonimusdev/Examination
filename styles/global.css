@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;
+    align-items: flex-start;
+}
+
+/* Header style */
+.left {
+    margin-left: 10px;
+}
+
+.left div {
+    margin-left: 20px;
+    font-family: poppins, sans-serif;
+    font-size: 35px;
+    color: #58A9A5;
+}
+
+.right {
+    font-family: poppins4, sans-serif;
+    font-size: 25px;
+}
+
+.menu ul li {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-weight: 400;
+}
+
+.icons a {
+    background: #58A9A5;
+    border-radius: 10px;
+    padding: 10px 15px;
+    color: white;
+}
+
+.menu ul li:active {
+    font-family: poppins, sans-serif;
+    color: #58A9A5;
+    border-bottom: 4px solid yellow;
+}
+
+.mains {
+    margin-top: 20px;
+}
+
+.left {
+    display: flex;
+}
+
+.menu ul,.right{
+    display: flex;
+}
+
+.picture {
+    background-image: url(../images/main_back_pic.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;
+}
+
+.text {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.text h2 {
+    width: 50%;
+    font-size: 65px;
+    font-style: normal;
+    font-family: poppins,sans-serif;
+}
+
+.text p{
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-family: poppins4, sans-serif;
+}
+
+.bttn a{
+    border: 2px solid;
+    border-radius: 10px 10px 10px 0;
+    color: white;
+    background-color: #58A9A5;
+    padding: 10px 30px;
+    font-family: poppins5, sans-serif;
+    margin-left: 20px;
+}
+
+
+.innercont{
+    text-align: center;
+    width: 100%;
+}
+
+.text_pic {
+    display: flex;
+    width: 100%;
+}
+.innercont h2{
+    font-family: poppins, sans-serif;
+    font-size: 70px;
+}
+
+.innercont p{
+    font-family: poppins4, sans-serif;
+    font-size: 30px;
+}
+
+.leftpic {
+    width: 80%;
+}
+
+.righttext {
+    width: 20%;
+    background-color: #CCF0E6;
+}
+
+.righttext p{
+    font-size: 20px;
+    font-family: poppins4, sans-serif;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.innercont2{
+    display: flex;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.left2 {
+    width: 50%;
+}
+
+.right2{
+    margin-left: 30px;
+}
+
+.right2 h2{
+    font-size: 40px;
+    font-family: poppins, sans-serif;
+    width: 50%;
+}
+
+.right2 p{
+    font-family: poppins4;
+    font-size: 30px;
+    width: 50%;
+}
+
+.innercont3{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.inn {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.inn h1 {
+    font-size: 70px;
+    font-family: poppins;
+}
+
+.innercont3 .head{
+    width: 100%;
+    display: flex;
+}
+
+.innercont3 h2{
+    color: #58A9A5;
+    font-family: poppins5,sans-serif;
+    font-size: 40px;
+}
+
+.innercont3 p{
+    color: #58A9A5;
+    font-family: poppins4;
+    font-size: 20px;
+}
+
+.center {
+    text-align: center;
+    width: 100%;
+}
+
+.center h2{
+    font-size: 70px;
+    font-family: poppins;
+}
+
+.logos{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.headend{
+    display: flex;
+}
+
+.right3{
+    margin-top: 100px;
+    margin-left: 50px;
+    color: #58A9A5;
+    font-family: poppins4,sans-serif;
+    font-size: 30px;
+
+}
+
+.right3 div{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.no1 h1{
+    color: #58A9A5;
+    font-family: poppins,sans-serif;
+    font-size: 50px;
+}
+
+.no1 p{
+    color: #58A9A5;
+    font-size: 30px;
+    font-family: poppins4,sans-serif;
+}
+
+.sec_end .container{
+    flex-direction: column;
+}
+
+.footerleft{
+    width: 40%;
+}
+
+.foterleft h1{
+    font-size: 50px;
+    font-family: poppins,sans-serif;
+}
+
+.foterleft p{
+    font-size: 25px;
+    font-family: poppins4;
+}
+
+.form {
+    font-size: 30px;
+    width: 60%;
+    height: 180px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.form #ism {
+    margin-left: 10px;
+    width: 800px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.form #mail {
+    margin-left: 10px;
+    width: 800px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.bttn2 {
+    border: none;
+    border-radius: 5px 5px 5px 0;
+    background-color: #58A9A5;
+    color: white;
+    padding: 10px 20px;
+}
+
+.form div:last-child{
+    text-align: right;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+
+#end {
+    margin-left: 30px;
+}
+
